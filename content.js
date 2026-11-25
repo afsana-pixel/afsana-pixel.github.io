@@ -12,16 +12,16 @@
 
 const content = {
   // ---------- About you ----------
-  name: "Percy Portfolio",
-  tagline: "Aspiring software developer & professional thumbs-up giver 👍", // one line under your name
+  name: "Afsana Zaman",
+  tagline: "Computer Science student building, collaborating, and leveling up",
 
   // Put your photo in the assets/ folder and put its file name here.
   // Square-ish, about 600px wide, under 1 MB works best.
-  photo: "assets/photo.jpg",
+  photo: "",
 
   // 1–3 sentences: what you care about and what you're looking for.
   mission:
-    "I build friendly, useful software and I'm looking for a co-op where I can learn fast, ship real features, and work with people who love teaching.",
+    "Computer Science student who loves clear communication, sharp problem-solving, and working with people who bring great energy to a team. Always eager to learn new tools, stay organized under pressure, and grow alongside great builders.",
 
   // ---------- Make it yours ----------
   theme: {
@@ -29,14 +29,14 @@ const content = {
     //   "classic" = clean and friendly (the default)
     //   "techy"   = dark terminal vibes, one tab per section (always dark, always monospace)
     //   "fancy"   = big serif headings, an arched photo, swipeable project cards
-    style: "classic",
+    style: "fancy",
 
     // Pick a preset: "coral", "ocean", "grape", "forest", "sunset", "bubblegum"
     // ...or use any hex color like "#ff6b9d".
-    accent: "ocean",
+    accent: "grape",
 
     // Pick a font: "modern", "serif", "rounded", "mono"
-    font: "modern",
+    font: "serif",
 
     // "auto" follows the visitor's device. You can also force "light" or "dark".
     // (The "techy" look is always dark.)
@@ -46,65 +46,47 @@ const content = {
   // ---------- Links (shown as buttons at the top) ----------
   // For email just write the address, e.g. "you@example.com".
   links: [
-    { label: "GitHub", url: "https://github.com/your-username" },
-    { label: "LinkedIn", url: "https://www.linkedin.com/in/your-name" },
-    { label: "Email", url: "percy@example.com" },
+    { label: "LinkedIn", url: "https://www.linkedin.com/in/afsana-zaman-57157a384" },
+    { label: "Email", url: "afsanazaman2007@gmail.com" },
   ],
 
   // ---------- Skills (optional — set to [] to hide) ----------
-  skills: ["JavaScript", "Python", "HTML & CSS", "Git", "Java", "SQL"],
+  skills: [
+    "Problem-Solving & Critical Thinking",
+    "Teamwork & Collaboration",
+    "Clear Communication",
+    "Organization & Time Management",
+    "Conflict Resolution",
+    "Leadership & Initiative",
+    "Customer-Focused Mindset",
+    "Tech & Computer Skills",
+  ],
 
   // ---------- Projects ----------
   // Link to the GitHub repo (a live demo is optional — a repo is enough!).
   // tags are optional.
-  projects: [
-    {
-      title: "Study Buddy",
-      description: "A web app that matches classmates into study groups based on courses and schedules.",
-      url: "https://github.com/your-username/study-buddy",
-      tags: ["JavaScript", "Node.js"],
-    },
-    {
-      title: "Campus Eats",
-      description: "A command-line tool that picks where to eat on campus using a very scientific coin flip.",
-      url: "https://github.com/your-username/campus-eats",
-      tags: ["Python"],
-    },
-    {
-      title: "Habit Tracker",
-      description: "A tiny mobile-friendly habit tracker that works offline.",
-      url: "https://github.com/your-username/habit-tracker",
-      tags: ["HTML", "CSS", "JavaScript"],
-    },
-  ],
+  projects: [],
 
   // ---------- Education ----------
   education: [
     {
-      school: "Example College",
-      degree: "Diploma, Computer Programming",
-      years: "2024 – 2027",
-      details: "Relevant courses: Data Structures, Databases, Web Development.", // optional
+      school: "Conestoga College",
+      degree: "Bachelor of Computer Science",
+      years: "Expected Aug 2029",
+      details: "", // optional
     },
   ],
 
   // ---------- Work experience (optional — set to [] to hide) ----------
-  experience: [
-    {
-      role: "Peer Tutor",
-      org: "Example College Learning Centre",
-      years: "2025 – present",
-      description: "Help first-year students debug their programming assignments.",
-    },
-  ],
+  experience: [],
 
   // ---------- Extracurriculars (optional — set to [] to hide) ----------
   extracurriculars: [
     {
-      role: "Executive Lead",
-      org: "Google Developer Group on Campus",
-      years: "2025 – present",
-      description: "Run workshops and events for student developers.",
+      role: "Active Member",
+      org: "IT Club & Google Developer Group, Conestoga College",
+      years: "2025 – Present",
+      description: "Engaged in campus tech events, workshops, and developer community meetups.",
     },
   ],
 };
